@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Telia mTasku\n"
+"POT-Creation-Date: 2020-12-07 18:35+0200\n"
+"PO-Revision-Date: 2021-02-08 22:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: Aktsiamaailm OÜ <info@e-abi.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: en\n"
+
+msgid "WooCommerce Telia mTasku payment gateway"
+msgstr "WooCommerce Telia mTasku payment gateway"
+
+msgid "Method availability"
+msgstr "Method availability"
+
+msgid "All allowed countries"
+msgstr "All allowed countries"
+
+msgid "Specific Countries"
+msgstr "Specific Countries"
+
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+msgid "Enable mTasku payments"
+msgstr "Enable mTasku payments"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+msgid "Pay with mTasku mobile wallet"
+msgstr "Pay with mTasku mobile wallet"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "This controls the description which the user sees during checkout."
+
+msgid "Merchant username/registration code"
+msgstr "Merchant username/registration code"
+
+msgid "https://www.mtasku.ee/en/sooviavaldus/"
+msgstr "https://www.mtasku.ee/en/sooviavaldus/"
+
+msgid "Merchant password"
+msgstr "Merchant password"
+
+msgid "Merchant terminal ID"
+msgstr "Merchant terminal ID"
+
+msgid "Merchant IDENT terminal ID"
+msgstr "Merchant IDENT terminal ID"
+
+msgid "Preferred locale"
+msgstr "Preferred locale"
+
+msgid "RFC-2616 format locale. Like et,en,ru"
+msgstr "RFC-2616 format locale. Like et,en,ru"
+
+msgid "Accepted currency by this gateway"
+msgstr "Accepted currency by this gateway"
+
+msgid "Other currencies will be converted to accepted currency"
+msgstr "Other currencies will be converted to accepted currency"
+
+msgid "Setting [%s] is disabled. This may cause errors in the plugin"
+msgstr "Setting [%s] is disabled. This may cause errors in the plugin"
+
+msgid "Enable logging"
+msgstr "Enable logging"
+
+msgid "Log level"
+msgstr "Log level"
+
+msgid "Request failed with response: %s"
+msgstr "Request failed with response: %s"
+
+msgid "Shop name on some reports"
+msgstr "Shop name on some reports"
+
+msgid "You canceled the payment"
+msgstr "You canceled the payment"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Error occurred with the payment, please try again"
+msgstr "Error occurred with the payment, please try again"
+
+msgid "Show payment QR code"
+msgstr "Show payment QR code"
+
+msgid "On checkout page (may not work for everyone)"
+msgstr "On checkout page (may not work for everyone)"
+
+msgid "On separate page after customer confirms order"
+msgstr "On separate page after customer confirms order"
+
+msgid "Cancel order & restore cart"
+msgstr "Cancel order & restore cart"
+
+msgid "Connection to mTasku server failed with message: %s"
+msgstr "Connection to mTasku server failed with message: %s"
+
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgid "Payment was successful"
+msgstr "Payment was successful"
+
+msgid "Thank you for the order, please click on the button to start the payment."
+msgstr "Thank you for the order, please click on the button to start the payment."
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Start payment"
+msgstr "Start payment"
+
+msgid "Live account credentials can be obtained here"
+msgstr "Live account credentials can be obtained here"
+
+msgid "Connection to mTasku server was successful"
+msgstr "Connection to mTasku server was successful"
+
+msgid "Transaction could not be initialized"
+msgstr "Transaction could not be initialized"
+
+msgid "Payment message on receipt"
+msgstr "Payment message on receipt"
+
+msgid "Default: %s, where %%s is replaced with order number"
+msgstr "Default: %s, where %%s is replaced with order number"
+
+msgid "Order %s fee"
+msgstr "Order %s fee"
+
+msgid "[TEST]"
+msgstr "[TEST]"
+
+msgid "[LIVE]"
+msgstr "[LIVE]"
+
+msgid "Live mode"
+msgstr "Live mode"
+
+msgid "Test mode"
+msgstr "Test mode"
+
+msgid "Payment method mode"
+msgstr "Payment method mode"
+
+msgid "mTasku payment for WooCommerce"
+msgstr "mTasku payment for WooCommerce"
+
+msgid "Adds mobile wallet mTasku payment method to Woocommerce"
+msgstr "Adds mobile wallet mTasku payment method to Woocommerce"
+
+msgid "Customers can pay with any payment card registered in the mTasku smartphone app"
+msgstr "Customers can pay with any payment card registered in the mTasku smartphone app"
+
+msgid "https://wiki.e-abi.ee/dokid/010430/en/AllowPOSTGETUserAgentcontentstob.html"
+msgstr "https://wiki.e-abi.ee/dokid/010430/en/AllowPOSTGETUserAgentcontentstob.html"
+
+msgid "Allow POST/GET/UserAgent contents to be logged to the log file"
+msgstr "Allow POST/GET/UserAgent contents to be logged to the log file"
+
+msgid "I confirm that I have read the %s and agree to them"
+msgstr "I confirm that I have read the %s and agree to them"
+
+msgid "Log level DEBUG is required for this setting to be enabled"
+msgstr "Log level DEBUG is required for this setting to be enabled"
+
+msgid "terms and conditions"
+msgstr "terms and conditions"
+
+msgid "Open mTasku app"
+msgstr "Open mTasku app"
+
+msgid "With mTasku, you can pay in e-shop without logging in to the Internet bank and entering bank card data. Move your plastic cards to your phone: www.mtasku.ee"
+msgstr "With mTasku, you can pay in e-shop without logging in to the Internet bank and entering bank card data. Move your plastic cards to your phone: www.mtasku.ee"

@@ -1,0 +1,126 @@
+
+
+.eabi-mtasku-modal .eabi-mtasku-mobile {
+    display: inline-block;
+    position: absolute;
+    padding: 35px 35px 10px 35px;
+    top: 10%;
+    left: 50%;
+    margin-left: -150px;
+    border-radius: 5px;
+    background: #F5F5F7;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.50);
+}
+
+
+.eabi-mtasku-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 10001;
+    font-weight: 200;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    /* background: rgba(0,0,0,0.6); */
+    perspective: 800;
+    -webkit-perspective: 800;
+    opacity: 0;
+    -webkit-transition: 200ms opacity ease;
+    -moz-transition: 200ms opacity ease;
+    -ms-transition: 200ms opacity ease;
+    -o-transition: 200ms opacity ease;
+    transition: 200ms opacity ease;
+}
+
+.eabi-mtasku-modal.active {
+   opacity: 1;
+}
+
+.eabi-mtasku-modal .btn {
+    display: block;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: 37px;
+    text-decoration: none;
+    background: #45b1e8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700 !important;
+    font-size: 17px;
+    line-height: 23px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0 1px 0 rgba(46,86,153,0.15), 0 0 4px rgba(86,149,219,0), inset 0 2px 0 rgba(41,102,20,0);
+    -moz-box-shadow: 0 1px 0 rgba(46,86,153,0.15),0 0 4px rgba(86,149,219,0),inset 0 2px 0 rgba(41,102,20,0);
+    -ms-box-shadow: 0 1px 0 rgba(46,86,153,0.15),0 0 4px rgba(86,149,219,0),inset 0 2px 0 rgba(41,102,20,0);
+    -o-box-shadow: 0 1px 0 rgba(46,86,153,0.15),0 0 4px rgba(86,149,219,0),inset 0 2px 0 rgba(41,102,20,0);
+    box-shadow: 0 1px 0 rgba(46,86,153,0.15), 0 0 4px rgba(86,149,219,0), inset 0 2px 0 rgba(41,102,20,0);
+    -webkit-transition: box-shadow .15s linear;
+    -moz-transition: box-shadow .15s linear;
+    -ms-transition: box-shadow .15s linear;
+    -o-transition: box-shadow .15s linear;
+    transition: box-shadow .15s linear;
+    text-transform: none;
+    overflow: visible;
+}
+
+.eabi-mtasku-modal .btn.grey {
+    border: solid 1px #718578;
+    background-image: -o-linear-gradient(-89deg, #A9BEB1 0%, #869A8D 100%);
+    background-image: -moz-linear-gradient(-89deg, #A9BEB1 0%, #869A8D 100%);
+    background-image: -ms-linear-gradient(-89deg, #A9BEB1 0%, #869A8D 100%);
+    background-image: linear-gradient(-179deg, #A9BEB1 0%, #869A8D 100%);
+    margin-top: 10px;
+}
+
+.eabi-mtasku-modal .btn.green {
+    border: solid 1px #04872E;
+    background-image: -o-linear-gradient(-89deg, #2FDC47 0%, #24AE52 100%);
+    background-image: -moz-linear-gradient(-89deg, #2FDC47 0%, #24AE52 100%);
+    background-image: -ms-linear-gradient(-89deg, #2FDC47 0%, #24AE52 100%);
+    background-image: linear-gradient(-179deg, #2FDC47 0%, #24AE52 100%);
+}
+
+.eabi-mtasku-modal .not-visible {
+    display: none;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.wc_payment_method.payment_method_eabi_telia_mtasku label[for=payment_method_eabi_telia_mtasku] > img {
+    max-height: 35px;
+
+}

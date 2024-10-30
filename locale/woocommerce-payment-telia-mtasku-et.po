@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Telia mTasku\n"
+"POT-Creation-Date: 2020-12-07 18:35+0200\n"
+"PO-Revision-Date: 2021-02-08 22:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: Aktsiamaailm OÜ <info@e-abi.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: et\n"
+
+msgid "WooCommerce Telia mTasku payment gateway"
+msgstr "WooCommerce Telia mTasku maksevärav"
+
+msgid "Method availability"
+msgstr "Maksemeetodi saadavus"
+
+msgid "All allowed countries"
+msgstr "Kõik lubatud riigid"
+
+msgid "Specific Countries"
+msgstr "Valitud riigid"
+
+msgid "Enable/Disable"
+msgstr "Luba/Keela"
+
+msgid "Enable mTasku payments"
+msgstr "Luba klientidele mTasku maksed"
+
+msgid "Title"
+msgstr "Nimetus"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "Muudab makseviisi nimetust, mida klient näeb kassas."
+
+msgid "mTasku mobile wallet"
+msgstr "mTasku mobiilne rahakott"
+
+msgid "Description"
+msgstr "Kirjeldus"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "Muudab makseviisi kirjeldust, kui klient valib käesoleva makseviisi."
+
+msgid "Merchant username/registration code"
+msgstr "Kaupmehe kasutajanimi/registrikood"
+
+msgid "https://www.mtasku.ee/en/sooviavaldus/"
+msgstr "https://www.mtasku.ee/sooviavaldus/"
+
+msgid "Merchant password"
+msgstr "Kaupmehe salasõna"
+
+msgid "Merchant terminal ID"
+msgstr "Kaupmehe terminali ID"
+
+msgid "Merchant IDENT terminal ID"
+msgstr "Kaupmehe IDENT terminali ID"
+
+msgid "Preferred locale"
+msgstr "Eelistatud keel"
+
+msgid "RFC-2616 format locale. Like et,en,ru"
+msgstr "RFC-2616 formaadis keel. Nagu näiteks et,en,ru"
+
+msgid "Accepted currency by this gateway"
+msgstr "Lubatud valuuta käesolevale makseviisile"
+
+msgid "Other currencies will be converted to accepted currency"
+msgstr "Teistes valuutades tehtud tellimused konverteeritakse lubatud valuutaks"
+
+msgid "Setting [%s] is disabled. This may cause errors in the plugin"
+msgstr "Seadistus [%s] on keelatud. See võib tekitada häireid pluginas"
+
+msgid "Enable logging"
+msgstr "Luba logimine faili"
+
+msgid "Log level"
+msgstr "Logimise tase"
+
+msgid "Request failed with response: %s"
+msgstr "Päring ebaõnnestus. Vastus serverist: %s"
+
+msgid "Shop name on some reports"
+msgstr "Poe nimetus teatud aruannetel"
+
+msgid "You canceled the payment"
+msgstr "Te katkestasite maksmise"
+
+msgid "Cancel"
+msgstr "Katkesta"
+
+msgid "Error occurred with the payment, please try again"
+msgstr "Maksmisel tekkis tõrge, palun proovige uuesti"
+
+msgid "Show payment QR code"
+msgstr "Näita makse QR koodi"
+
+msgid "On checkout page (may not work for everyone)"
+msgstr "Kassa lehel (ei pruugi kõikide jaoks töötada)"
+
+msgid "On separate page after customer confirms order"
+msgstr "Eraldi lehel peale kliendipoolset tellimuse kinnitamist"
+
+msgid "Cancel order & restore cart"
+msgstr "Tühista tellimus ja taasta ostukorv"
+
+msgid "Connection to mTasku server failed with message: %s"
+msgstr "Ühendus mTasku serverisse ebaõnnestus. Teade: %s"
+
+msgid "Transaction ID"
+msgstr "Tehingu ID"
+
+msgid "Payment was successful"
+msgstr "Makse on sooritatud"
+
+msgid "Thank you for the order, please click on the button to start the payment."
+msgstr "Tänan tellimuse eest! Maksmise alustamiseks klikkige nupul."
+
+msgid "Continue"
+msgstr "Edasi"
+
+msgid "Start payment"
+msgstr "Alusta makset"
+
+msgid "Live account credentials can be obtained here"
+msgstr "mTasku live konto kasutajatunnused on võimalik saada siit"
+
+msgid "Connection to mTasku server was successful"
+msgstr "mTasku serveriga ühendumine õnnestus"
+
+msgid "Transaction could not be initialized"
+msgstr "Tehingu alustamine ebaõnnestus"
+
+msgid "Payment message on receipt"
+msgstr "Makse selgitus kviitungil"
+
+msgid "Default: %s, where %%s is replaced with order number"
+msgstr "Vaikimisi: %s, kus %%s asendatakse tellimuse numbriga"
+
+msgid "Order %s fee"
+msgstr "Tellimuse %s tasu"
+
+msgid "[TEST]"
+msgstr "[testkonto]"
+
+msgid "[LIVE]"
+msgstr "[päriskonto]"
+
+msgid "Live mode"
+msgstr "Päriskonto"
+
+msgid "Test mode"
+msgstr "Testkonto"
+
+msgid "Payment method mode"
+msgstr "Makseviisi töörežiim"
+
+msgid "mTasku payment for WooCommerce"
+msgstr "mTasku kaardimaaksed WooCommercele"
+
+msgid "Adds mobile wallet mTasku payment method to Woocommerce"
+msgstr "mTasku annab klientidele võimaluse maksta oma mobiilse rahakotiga."
+
+msgid "Customers can pay with any payment card registered in the mTasku smartphone app"
+msgstr "Kliendid saavad ostu eest tasuda oma mTasku rakenduses registreeritud maksekaardiga"
+
+msgid "https://wiki.e-abi.ee/dokid/010430/en/AllowPOSTGETUserAgentcontentstob.html"
+msgstr "https://wiki.e-abi.ee/dokid/010430/et/LubaPOSTGETUserAgentmuutujatesis.html"
+
+msgid "Allow POST/GET/UserAgent contents to be logged to the log file"
+msgstr "Luba POST/GET/UserAgent muutujate sisu logimine logifaili"
+
+msgid "I confirm that I have read the %s and agree to them"
+msgstr "Kinnitan, et olen lugenud läbi %s ja nõustun nendega"
+
+msgid "Log level DEBUG is required for this setting to be enabled"
+msgstr "Logimise tase peab käesoleva seadistuse kasutamiseks olema vähemalt DEBUG"
+
+msgid "terms and conditions"
+msgstr "tingimused"
+
+msgid "Open mTasku app"
+msgstr "Ava mTasku app"
+
+msgid "With mTasku, you can pay in e-shop without logging in to the Internet bank and entering bank card data. Move your plastic cards to your phone: www.mtasku.ee"
+msgstr "mTaskuga saab e-poes maksta internetipanka sisselogimata ning pangakaardi andmeid sisestamata. Koli oma plastikkaardid telefoni: www.mtasku.ee"
